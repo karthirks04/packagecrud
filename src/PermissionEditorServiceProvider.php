@@ -1,5 +1,5 @@
 <?php
-namespace laravelmoduelscrud\laravelpermissioneditor;
+namespace LaravelModulscrud  laravelmoduelscrud\laravelpermissioneditor;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
 
@@ -35,9 +35,9 @@ class PermissionEditorServiceProvider extends ServiceProvider
         // ], 'routes');
 
 
-$this->app->bind('path.public', function() {
-          return base_path().'/public_html';
-        });
+// $this->app->bind('path.public', function() {
+//           return base_path().'/public_html';
+//         });
 
 
     }
