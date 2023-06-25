@@ -24,12 +24,12 @@
     "minimum-stability": "dev",
     "scripts": {
     "post-install-cmd": [
-        "@php artisan migrate --path=packages/laravelmoduelscrud/laravelpermissioneditor/database/migrations",
+        "@php artisan migrate --path=packages/laravelmoduelscrud/laravelpermissioneditor/Database/migrations",
          "@php artisan vendor:publish --tag=your-package-tag --force",
          "@php artisan storage:link"
     ],
     "post-update-cmd": [
-        "@php artisan migrate --path=packages/laravelmoduelscrud/laravelpermissioneditor/database/migrations",
+        "@php artisan migrate --path=packages/laravelmoduelscrud/laravelpermissioneditor/Database/migrations",
         "@php artisan vendor:publish --tag=your-package-tag --force",
         "@php artisan storage:link"
     ]
