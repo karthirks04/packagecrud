@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Laraveldaily\\laravelpermissioneditor\\' => array($baseDir . '/src'),
+    'laravelmoduelscrud\\laravelpermissioneditor\\' => array($baseDir . '/src'),
 );

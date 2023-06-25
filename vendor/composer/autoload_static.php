@@ -9,12 +9,12 @@ class ComposerStaticInitfb4287c178852f18b330129f9fc19d8f
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
-            'Laraveldaily\\laravelpermissioneditor\\' => 37,
+            'laravelmoduelscrud\\laravelpermissioneditor\\' => 37,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Laraveldaily\\laravelpermissioneditor\\' => 
+        'laravelmoduelscrud\\laravelpermissioneditor\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

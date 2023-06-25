@@ -1,5 +1,5 @@
 <?php
-namespace laraveldaily\laravelpermissioneditor;
+namespace laravelmoduelscrud\laravelpermissioneditor;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
 
@@ -18,7 +18,7 @@ class PermissionEditorServiceProvider extends ServiceProvider
         
         // $this->loadViewsFrom(__DIR__.'/resources/views/layouts', 'crud');
          $this->publishes([
-        __DIR__.'/resources/views' => resource_path('views\laraveldaily/laravelpermissioneditor'),
+        __DIR__.'/resources/views' => resource_path('views\laravelmoduelscrud/laravelpermissioneditor'),
     ], 'package-views');
        
 
@@ -50,7 +50,7 @@ $this->app->bind('path.public', function() {
     public function boot()
     {
         // Route::prefix('laravelpermissioneditor')
-        //         ->namespace('laraveldaily\laravelpermissioneditor\Http\Controllers')
+        //         ->namespace('laravelmoduelscrud\laravelpermissioneditor\Http\Controllers')
         //         ->as('laravelpermissioneditor.')
         //         ->group(function (){
         //             $this->loadRoutesFrom(__DIR__.'/routes/web.php');

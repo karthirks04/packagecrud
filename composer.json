@@ -1,17 +1,17 @@
 {
-    "name": "laraveldaily/laravelpermissioneditor",
+    "name": "laravelmoduelscrud/laravelpermissioneditor",
     "description": "A contact form packafge for laravel",
     "type": "metapackage",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "laraveldaily\\laravelpermissioneditor\\": "src/"
+            "laravelmoduelscrud\\laravelpermissioneditor\\": "src/"
         }
     },
      "extra": {
         "laravel": {
             "providers": [
-                "laraveldaily\\laravelpermissioneditor\\PermissionEditorServiceProvider"
+                "laravelmoduelscrud\\laravelpermissioneditor\\PermissionEditorServiceProvider"
             ]
         }
     },
@@ -23,12 +23,12 @@
     "minimum-stability": "dev",
     "scripts": {
     "post-install-cmd": [
-        "@php artisan migrate --path=packages/laraveldaily/laravelpermissioneditor/database/migrations",
+        "@php artisan migrate --path=packages/laravelmoduelscrud/laravelpermissioneditor/database/migrations",
          "@php artisan vendor:publish --tag=your-package-tag --force",
          "@php artisan storage:link"
     ],
     "post-update-cmd": [
-        "@php artisan migrate --path=packages/laraveldaily/laravelpermissioneditor/database/migrations",
+        "@php artisan migrate --path=packages/laravelmoduelscrud/laravelpermissioneditor/database/migrations",
         "@php artisan vendor:publish --tag=your-package-tag --force",
         "@php artisan storage:link"
     ]

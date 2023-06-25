@@ -1,8 +1,8 @@
 <?php
-namespace Laraveldaily\LaravelPermissionEditor\Http\Controllers;
+namespace laravelmoduelscrud\LaravelPermissionEditor\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use laraveldaily\laravelpermissioneditor\Model\Crud;
+use laravelmoduelscrud\laravelpermissioneditor\Model\Crud;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;

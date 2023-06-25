@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraveldaily\LaravelPermissionEditor\Model;
+namespace laravelmoduelscrud\LaravelPermissionEditor\Model;
 use Illuminate\Database\Eloquent\Model;
 use DB;
 

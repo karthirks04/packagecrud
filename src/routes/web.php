@@ -1,7 +1,7 @@
 <?php
-namespace Laraveldaily\LaravelPermissionEditor\Http\Controllers;
+namespace laravelmoduelscrud\LaravelPermissionEditor\Http\Controllers;
 
-use laraveldaily\laravelpermissioneditor\Http\Controllers\CrudController;
+use laravelmoduelscrud\laravelpermissioneditor\Http\Controllers\CrudController;
 
 use Illuminate\Support\Facades\Route;
 
