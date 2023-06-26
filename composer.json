@@ -9,7 +9,13 @@
              "laravelmoduelscrud\\laravelpermissioneditor\\": "src/"
         }
     },
-  
+       "extra": {
+        "laravel": {
+            "providers": [
+                "laravelmoduelscrud\\laravelpermissioneditor\\PermissionEditorServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "karthicks"
