@@ -19,6 +19,15 @@
  "require": {
         "php": "^7.2.5|^8.0"
         
+    },
+       "repositories": [
+    {
+        "type": "path",
+        "url": "packages/laravelmoduelscrud/laravelpermissioneditor",
+        "options": {
+            "symlink": true
+        }
     }
+]
   
 }
