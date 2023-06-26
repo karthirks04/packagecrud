@@ -7,9 +7,9 @@ namespace Composer\Autoload;
 class ComposerStaticInitfb4287c178852f18b330129f9fc19d8f
 {
     public static $prefixLengthsPsr4 = array (
-        'L' => 
+        'l' => 
         array (
-            'laravelmoduelscrud\\laravelpermissioneditor\\' => 37,
+            'laravelmoduelscrud\\laravelpermissioneditor\\' => 43,
         ),
     );
 
