@@ -5,8 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "laravelmoduelscrud\\laravelpermissioneditor\\": "src/"
-        }
+            "laravelmoduelscrud\\laravelpermissioneditor\\":     "packages/laravelmoduelscrud/laravelpermissioneditor/src"
+                  }
     },
     
     "authors": [
