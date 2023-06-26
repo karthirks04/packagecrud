@@ -9,13 +9,7 @@
              "laravelmoduelscrud\\laravelpermissioneditor\\": "src/"
         }
     },
-       "extra": {
-        "laravel": {
-            "providers": [
-                "laravelmoduelscrud\\laravelpermissioneditor\\PermissionEditorServiceProvider"
-            ]
-        }
-    },
+    
     "authors": [
         {
             "name": "karthicks"
@@ -26,6 +20,15 @@
  "require": {
         "php": "^7.2.5|^8.0"
         
+    },
+       "repositories": [
+    {
+        "type": "path",
+        "url": "packages/laravelmoduelscrud/laravelpermissioneditor",
+        "options": {
+            "symlink": true
+        }
     }
+]
   
 }
