@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "laravelmoduelscrud\\laravelpermissioneditor\\":     "packages/laravelmoduelscrud/laravelpermissioneditor/src"
+            "laravelmoduelscrud\\laravelpermissioneditor\\":     "src/"
                   }
     },
     
@@ -20,14 +20,12 @@
         "php": "^7.2.5|^8.0"
         
     },
-       "repositories": [
-    {
-        "type": "path",
-        "url": "packages/laravelmoduelscrud/laravelpermissioneditor",
-        "options": {
-            "symlink": true
-        }
+     "extra": {
+      "laravel": {
+        "providers": [
+          "\\Laravelmoduelscrud\\Laravelpermissioneditor\\PermissionEditorServiceProvider"
+        ]
+             }
     }
-]
   
 }
