@@ -1,5 +1,5 @@
 <?php
-namespace laravelmoduelscrud\laravelpermissioneditor;
+namespace Laravelmoduelscrud\Laravelpermissioneditor;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
 
